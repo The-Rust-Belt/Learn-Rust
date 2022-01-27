@@ -4,7 +4,7 @@ fn main() {
     println!("{greeting}, {name}!", greeting="Hello", name="world"); // Hello, world!
 
     println!("{:?}", [1, 2, 3]); // [1, 2, 3]
-    println!("{:#?}");
+    println!("{:#?}", [1, 2, 3]);
     /*
         [
             1,
