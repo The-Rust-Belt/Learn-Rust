@@ -1,5 +1,7 @@
+const PI: f64 = 3.14159265359;
+
 fn main() {
-    println!("Hello, world!");
+    println!("The value of Pi is {}", PI);
 
     let a; // Declaration
     println!(a);
@@ -34,5 +36,19 @@ fn main() {
         x + y
     }; // z = 3
     println!(z);
+
+
+    const M: i32 = 5;
+
+    static N: i32 = 5;
+
+
+    let g: f64 = -20.48; // float
+    let h: i64 = g.floor() as i64; // int (rounded down)
+    println!("{}", g); // -21
+
+    let i: &str = "hello"; //&str (Unicode string slices)
+    let i: String = i.to_uppercase(); // String
+    println!("{}", i); // HELLO
 
 }
